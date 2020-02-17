@@ -5,10 +5,10 @@ $('html, body').css({
 });
 
 //SVG LOGO
-var bar = new ldBar("#myItem1");
-bar.set(
-  false
-);
+//var bar = new ldBar("#myItem1");
+//bar.set(
+  //false
+//);
 
 $(window).on('load', function() {
 
