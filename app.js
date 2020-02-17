@@ -6,7 +6,7 @@ $('html, body').css({
   height: '100%'
 });
 
-var bar = new ldBar("#myItem1",{
+var bar = new ldBar(".myItem1",{
   "type": 'fill'
 });
 bar.set(
