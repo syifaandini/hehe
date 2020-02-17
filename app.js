@@ -8,19 +8,19 @@
 //   true
 // );
 //
-// $('html, body').css({
-//   overflow: 'hidden',
-//   height: '100%'
-// });
+$('html, body').css({
+  overflow: 'hidden',
+  height: '100%'
+});
 
 
 
 $(window).on('load', function() {
 
- // $('html, body').css({
-   // overflow: 'auto',
-    //height: 'auto'
-  //})
+  $('html, body').css({
+    overflow: 'auto',
+    height: 'auto'
+  })
 
   $("#loading").addClass("loader-hidden");
 });
