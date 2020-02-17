@@ -1,24 +1,25 @@
 // lOADER
-  //GIF
-// $('html, body').css({
-//   overflow: 'hidden',
-//   height: '100%'
-// });
-//
-// $(window).on('load', function() {
-//   $('html, body').css({
-//     overflow: 'auto',
-//     height: 'auto'
-//   })
-//   $("#loading").addClass("loader-hidden");
-// });
+$('html, body').css({
+  overflow: 'hidden',
+  height: '100%'
+});
 
-  //SVG LOGO
-  var bar = new ldBar("#myItem1");
-  bar.set(
-  100,
-  false
+//SVG LOGO
+var bar = new ldBar("#myItem1");
+bar.set(
+100,
+false
 );
+
+$(window).on('load', function() {
+  $('html, body').css({
+    overflow: 'auto',
+    height: 'auto'
+  })
+  $("#loading").addClass("loader-hidden");
+});
+
+
 
 
 
