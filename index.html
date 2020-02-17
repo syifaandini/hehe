@@ -9,7 +9,7 @@
   <!-- CSS Stylesheets  -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" type="text/css" href="css/loading-bar.css"/>
+  <link rel="stylesheet" type="text/css" href="css/loading-bar.css">
 
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
@@ -22,15 +22,19 @@
 </head>
 
 <body>
+  <!-- loading svg -->
+
   <div id="loading" class="loader">
-    <div id="myItem1" class=""
+    <div id="myItem1" class="ldbar"
         data-type="fill"
         data-fill-dir="btt"
         data-img="images/logohitam.svg"
-        data-img-size="100,100"
+        data-img-size="100,100",
+        data-max="100"
       >
       </div>
   </div>
+
 
   <!-- NAVBAR -->
   <!-- <div id="loading" class="loader">
@@ -317,11 +321,12 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <!-- <script src="app.js" charset="utf-8"></script> -->
-	<script type="text/javascript" src="loading-bar.js"></script>
-  
+  <script type="text/javascript" src="loading-bar.js"></script>
+  <script type="text/javascript" src="load.js"></script>
   <script type="text/javascript" src="app.js"></script>
-	<script type="text/javascript" src="load.js"></script>
-	
+
+
+
 
 
 </body>
