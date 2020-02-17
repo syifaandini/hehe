@@ -10,8 +10,7 @@ var bar = new ldBar(".myItem1",{
   "type": 'fill'
 });
 bar.set(
-  100,
-  false
+  100
 );
 
 $(window).on('load', function() {
