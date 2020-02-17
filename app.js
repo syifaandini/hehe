@@ -6,10 +6,11 @@ $('html, body').css({
 
 //SVG LOGO
 var bar = new ldBar("#myItem1",{
-  "type": "fill"
+  "type": "fill",
+  "img": "images/logohitam.svg"
 });
 bar.set(
-  80,
+  100,
   true
 );
 
