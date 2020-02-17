@@ -6,13 +6,10 @@ $('html, body').css({
 
 //SVG LOGO
 var bar = new ldBar("#myItem1");
-  bar.set(
-  100,
-  false
-);
+bar.set(100);
 
 $(window).on('load', function() {
-  alert("masuk");
+
   $('html, body').css({
     overflow: 'auto',
     height: 'auto'
