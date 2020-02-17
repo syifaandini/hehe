@@ -1,8 +1,8 @@
 // lOADER
-$('html, body').css({
-  overflow: 'hidden',
-  height: '100%'
-});
+//$('html, body').css({
+  //overflow: 'hidden',
+  //height: '100%'
+//});
 
 //SVG LOGO
 var bar = new ldBar("#myItem1",{
