@@ -7,7 +7,7 @@ $('html, body').css({
 //SVG LOGO
 var bar = new ldBar("#myItem1");
 bar.set(
-  100,
+  80,
   false
 );
 
