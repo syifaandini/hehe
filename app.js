@@ -8,7 +8,7 @@ $('html, body').css({
 var bar = new ldBar("#myItem1");
 bar.set(
   80,
-  false
+  true
 );
 
 $(window).on('load', function() {
